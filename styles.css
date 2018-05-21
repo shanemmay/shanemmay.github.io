@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Skranji');
+body
+{
+	background-image: url('bk.jpg');
+	background-size: cover;
+	background-repeat: none;
+	/*background-color: #582A72;*/
+	color: #2E417299;
+}
+h1
+{
+	color: #40307599;
+	text-align: center;
+	border: 1px solid #582A7255;
+}
+li
+{
+	list-style: none;
+	cursor:  copy;
+	display: inline-block;
+}
+
+h5,h6
+{
+	color: #eeeeee;
+}
+
+p span
+{
+	color: #00ffffaa;
+	font-family: 'Skranji', cursive;
+}

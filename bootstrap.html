@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<style type="text/css">
+		.col
+		{
+			background-color: #eeeeee66;
+			border: 2px solid #00000022;
+		}
+		.row
+		{
+			text-align: center;
+		}
+		.cell
+		{
+			background-color: #eeeeee66;
+			border: 2px solid #00000022;
+		}
+	</style>
+</head>
+<body>
+	<!-- navbar -->
+	<div class="pos-f-t">
+		<div class="collapse" id="navbarToggleExternalContent">
+			<div class="bg-dark p-4">
+
+				<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				  <a class="navbar-brand" href="#">Navbar</a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				    <div class="navbar-nav">
+				      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+				      <a class="nav-item nav-link" href="#">Features</a>
+				      <a class="nav-item nav-link" href="#">Pricing</a>
+				      <a class="nav-item nav-link disabled" href="#">Disabled</a>
+				    </div>
+				  </div>
+				</nav>
+
+			</div>
+		</div>
+		<nav class="navbar navbar-dark bg-dark">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+		</nav>
+	</div>
+
+	<!-- jumbotron -->
+	<div class="jumbotron">
+		<h1 class="display-4">Hello, world!</h1>
+		<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+		<hr class="my-4">
+		<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+		<!-- Button trigger modal -->
+		<p class="lead">
+			<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal">
+			  Launch demo modal
+			</button>
+		</p>
+	</div>
+
+
+	<!-- modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        ...
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Save changes</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- grid -->
+	<p style="text-align: center;">Row 1</p>
+	<div class="container">
+	  <div class="row">
+	    <div class="col">
+	      1 of 2
+	    </div>
+	    <div class="col">
+	      2 of 2
+	    </div>
+	  </div>
+	  <div class="row">
+	    <div class="col">
+	      1 of 3
+	    </div>
+	    <div class="col">
+	      2 of 3
+	    </div>
+	    <div class="col">
+	      3 of 3
+	    </div>
+	  </div>
+	</div>
+
+	<p style="text-align: center; margin-top: 8px;">Row 2</p>
+	<div class="container">
+		<div class="row">
+			<div class="cell col-sm-12 col-md-6 col-lg-4 col-xl-3">item</div>
+			<div class="cell col-sm-12 col-md-6 col-lg-4 col-xl-3">item</div>
+			<div class="cell col-sm-12 col-md-6 col-lg-4 col-xl-3">item</div>
+			<div class="cell col-sm-12 col-md-6 col-lg-4 col-xl-3">item</div>
+			<div class="cell col-sm-12 col-md-6 col-lg-4 col-xl-3">item</div>
+			<div class="cell col-sm-12 col-md-6 col-lg-4 col-xl-3">item</div>
+			<div class="cell col-sm-12 col-md-6 col-lg-4 col-xl-3">item</div>
+			<div class="cell col-sm-12 col-md-6 col-lg-4 col-xl-3">item</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
